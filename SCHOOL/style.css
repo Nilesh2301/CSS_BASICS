@@ -1,0 +1,50 @@
+p{
+    text-align: center;
+    height:100px;
+    width:200px;
+    background-color: pink;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: black;
+}
+/* border-style kis trh ki border chahiye */
+/* border-color kis color ka border */
+/* border-width mean border ki width  */
+h1{
+    font-weight: 100;
+    text-align: center;
+    width:200px;
+    height:100px;
+    background-color: red;
+    /* border-width: 8px;
+    border-style:double;
+    border-color: black; */
+    border:8px double black
+}
+div{
+    
+    height:100px;
+    width:100px;
+    background-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    border-color: pink;
+    border-radius: 10px;
+    /* padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 3px;
+    padding-left: 4px; */
+    padding:1px 2px 3px 4px;
+    margin:10px 20px 30px 40px;
+}
+/* border-radius circular edges makes */
+/* circle ke liye phle square box then border radius 50% */
+#one{
+    border-radius: 50%;
+}
+/* padding mean content aur border ke beech space */
+/* margin mean border aur doosre block ke beech space */
+#one{
+    display:inline;
+}
+/* display mean changing the property inline to block or block to inline */
