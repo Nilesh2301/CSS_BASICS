@@ -1,0 +1,80 @@
+
+/* COLOR PROPRTY USE FOR FOREGROUND ELEMENT */
+h1{
+    color:black;
+}
+p{
+    color:black;
+}
+BUTTON{
+    COLOR:black;
+    background-color: grey ;
+}
+BODY{
+    /* background-color:rgb(25,0,100); */
+    background-color: #5d5e60;
+}
+/* this type is called element selector */
+/*   *{}     this selector is called universal selector==hr cheej ke uper style*/
+#headingone {
+    color:black;
+}
+#headingtwo{
+    color:black;
+}
+/* this type is called id selector */
+.unique{
+    color:black;
+}
+/* this type is called class selector */
+
+p{
+    text-align:center
+}
+#one{
+    font-family:arial;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+#two{
+    font-family: cursive;
+    font-size: 15px;
+    line-height: 12px;
+    text-transform:capitalize;
+}
+/* font size mean small big text */
+/* font-family mean type of text */
+/* font-weight mean boldness of text */
+/* text align mean text ko kaha pe rakhna hai  */
+/* line-height mean kitta space chahiye line ke beexh mein */
+/* text-transform mean kis type ka text upper lower */
+h1{
+    text-align: right;
+    text-decoration: black  wavy underline;
+    font-weight: normal;
+     text-transform:uppercase;
+
+}
+
+h2{
+    text-align: left;
+    text-decoration: black dotted overline;
+    font-weight:lighter;
+}
+h3{
+    text-align: center;
+    text-decoration: line-through;
+    font-weight:dark
+}
+h4{
+    text-align: justify;
+    text-decoration: red double underline;
+}
+h5{
+    text-align: center;
+    text-decoration: underline;
+    font-weight:100;
+}
+a{
+    text-decoration: none;
+}
