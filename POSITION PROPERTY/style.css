@@ -1,0 +1,44 @@
+div{
+    height:100px;
+    width :100px;
+    background-color:aqua;
+    border:2px solid black;
+    display:inline-block;
+}
+
+#box1{
+    position:static;
+}
+/* by defoult position static hi hoti hai */
+/* static set hone ke baad top left etc property work nahi krta */
+#box2{
+    position:relative;
+    top:20px;
+    left:15px;
+}
+/* relative mean jaha pe tha uske relative mein shift hoga */
+/* relative set ke baad top left etc work */
+/* absolute set pe closest positioned ancestor(closest tag)  aur jispe position set nahi hai */ 
+/* vo us box ke peeche chip jayega jispe hmne absolute lgaya hai */
+#box3{
+    position:absolute;
+    bottom:10px;
+    left:20px;
+}
+/* ispe closest body tag hai body ka subtag box3 hai  */
+
+#box4{
+    position:fixed;
+    top:0px;
+    left:300px;
+}
+#box6{
+    position:sticky;
+    top:0px;
+    left:400px;
+    background-color:yellow;
+}
+/* fixed ka matlab hai ki body tag se hi hamesha hoga */
+/* fixed position mein scroll krne par uper nahi jata neeche pe v dikhega */
+/* navigation baar ke liye fixed aur footer ke liyeabsolute use kro */
+/* sticky mean jb vo postion pe scroll krte vakt pahunchega jb vo fix position ki trh kaam karega */

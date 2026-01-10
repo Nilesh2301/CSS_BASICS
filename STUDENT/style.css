@@ -1,0 +1,18 @@
+#box1{
+    height:100px;
+    width:200px;
+    background-color: green;  
+    font-size :20px;
+}
+#box2{
+    height:50px;
+    /* width:30%; */
+    background-color: yellow;
+    margin-left: 10%;
+    font-size:1.5em;
+    width:2em;
+}
+/* 30% mean parent width ka 30% */
+/* 1.5em mean 1.5 times of parent font size */
+/* width 2em mean two times font-size of child---60px  */
+/* rem jo by defoult dimensioon set hoti hain uske barabar 1 rem hota hai */
