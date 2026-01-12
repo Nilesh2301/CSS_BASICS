@@ -1,0 +1,25 @@
+div{
+    background-color: bisque;
+    height:100px;
+    width:100px;
+    position: ABSOLUTE;
+    top:100px;
+    left:100px;
+    /* transform: rotate(90deg); */
+    
+    /* transform:rotatex(90deg); */
+    /* transform:scale(2);
+    transform:scale(2,3); */
+    /* transform:translate(500px); */
+    transform:skew(45deg);
+
+
+}
+/* transform: rotate(90deg); will rotate 90 degree */
+/* transform: rotatex(90deg); will rotate about x axis */
+/* transform:scale(2) 2 guna bda ho javega dono axis se */
+/* transform:scale(2,3) 2 guna x se 3 gunay se bda ho javega dono axis se */
+/* transform:translate mean element ke ek jgh se doosri jgh moove kranaa */
+/* transform:translate(20px) defoult x axis pe hoga */
+/* transform:translate(20px,30px)  mean x mein 20 and y mein 30*/
+/* transform:skew(45deg); mmean dono opposite corner se 45 degree kheech dena */

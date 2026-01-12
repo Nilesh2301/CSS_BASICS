@@ -1,0 +1,58 @@
+div{
+    font-size: 12px;
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    background-color:aquamarine;
+   
+    position:absolute;
+    top:100px;
+    left:100px;
+    /* animation-name:colorAnimate;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation:colorAnimate 2s ease-in 0s infinite normal
+
+}
+/* animation-direction: normal; mean left to right */
+/* animation-direction: reverse; mean right to left */
+/* animation-direction:alternate ; mean left to right right to left */
+/* animation-direction: alternate-re */
+/* shorthand---- animatio name duration timing fun delay itteration direction */
+/* @keyframes colorAnimate{
+    from{
+        left:0px;
+        background-color:yellow ;
+     }
+    50%{
+        background-color: blue;
+    }
+    to {
+        left:200px;
+        background-color: red;
+    } 
+} */
+/* from is 0% time and 100% is to time */
+@keyframes colorAnimate{
+    0%{
+        left:0px;
+        background-color:yellow ;
+     }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        left:200px;
+        background-color: red;
+    } 
+}
+
+
+
+
+}
+
+
