@@ -15,6 +15,7 @@ div{
     position:relative;
     top:20px;
     left:15px;
+    z-index: 5;
 }
 /* relative mean jaha pe tha uske relative mein shift hoga */
 /* relative set ke baad top left etc work */
@@ -37,8 +38,13 @@ div{
     top:0px;
     left:400px;
     background-color:yellow;
+    z-index:1;
 }
 /* fixed ka matlab hai ki body tag se hi hamesha hoga */
 /* fixed position mein scroll krne par uper nahi jata neeche pe v dikhega */
 /* navigation baar ke liye fixed aur footer ke liyeabsolute use kro */
 /* sticky mean jb vo postion pe scroll krte vakt pahunchega jb vo fix position ki trh kaam karega */
+/* z-index is used to control the stacking order of elements */
+/* z-index:0 mean auto jo phle likh hoga vo neeche , jitta jyada positive utta uper ,negative neeche*/
+/* z-index static pe kaam nnahi krega */
+/* when overlapping accurs z=index used */

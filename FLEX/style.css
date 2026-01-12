@@ -1,0 +1,64 @@
+body{
+    text-align:center;
+}
+
+div{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border:2px solid black;
+
+}
+#container{
+    width:400px;
+    height:400px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    /* align-content: flex-start; */
+}
+/* flex-direction container property not element property */
+/* flex-direction:row (defolut) hota hai . main axis row, element left to right */
+/* flex-direction:row-reverse. main axis row ,element right to left */
+/* flex-direction:coloumn . main axis coloumn ,aur element top to bottom  */
+/* flex-direction:coloumn-reverse .main axis coloumn,aur element bottom to top */
+             /* ye sabhi property jo neechein hain main axis pe depend krti hai */
+/* justify-content container ke liye hi hota hai. decides alignment along main axis */
+/* justify-content:flex-start (defoult) hota hai iska mtlb main axis jaha se start hai waha se */
+/* justify-content:flex-end iska mtlb main axis ke last se direction reverse nahi hogi */
+/* justify-content:center mean center pe shift ho jayega */
+/* justify-content:space-around mean box ke beech mein space create ho jayegi jitti
+equal space crate hogi aur box ke side mein beech space ki half space create hogi */
+/* justify-content:space-between mean last box ke corners contair se add honge ya side mein
+space create nahi hogi  */
+/* justify content:space-evenly mean ki space same create hogi hjr jgh * /
+/* align-items work along cross axis . kaam same justify-content ki trh krta hai axis different hai  */
+
+/* align-content work along cross axis . cross axis ke around aligment of space between & around the content */
+/* flex-wrap:wrap; element ko wrap krta hai. main asix mein space nahi rhegi to cross ke along jitte bachenge wrap ho jayenge  */
+/* align-self alignment of individual along the cross axis.align-content remove krna pdta hai */
+/* flex-shrink ,flex-grow mean kisi individual box chota ,bda krna   by defoult 1 hota hai.wraping remove krnapdta hai*/
+
+
+#box1{
+    background-color:blue;
+}
+#box2{
+    background-color:pink;
+    height:200px;
+    
+
+}
+#box3{
+    background-color: darkkhaki;
+    height:75px;
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+    align-self:flex-end;
+}

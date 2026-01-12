@@ -1,0 +1,30 @@
+div{
+    height:100px;
+    width :100px;
+    background-color:aqua;
+    border:2px solid black;
+    display:inline-block;
+}
+#box1{
+    background-color: bisque;
+    background-image: url("Cat.jpg");
+    background-size: cover;
+}
+/* background-image is used to set an image as the background of an element */
+/* background-size: cover means the image will cover the entire element */
+#box2{
+    background-color: coral;
+    background-image: url("Cat.jpg");
+    background-size: contain;}
+/* background-size: contain means the image will be scaled to fit within the element after fit jo empty space hoga it will be repeat*/
+#box3{
+    background-color: lightgreen;
+    background-image: url("Cat.jpg");
+    background-repeat: auto;
+
+}
+/* background-repeat: auto means the image will be zoomed multiple times */
+    
+#box4{
+    background-color: lightpink;
+}
